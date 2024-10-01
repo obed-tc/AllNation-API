@@ -258,7 +258,7 @@
                         </tr>
                     </table>
                     <button class="try-it"
-                        onclick="window.open('/api/v1/countries?search=arg&limit=5', '_blank')">Probar</button>
+                        onclick="window.open('api/api/v1/countries?search=arg&limit=5', '_blank')">Probar</button>
                     <h4>Ejemplo de respuesta:</h4>
                     <pre class="response-example">
 [
@@ -283,7 +283,7 @@
                             <td>ID del país</td>
                         </tr>
                     </table>
-                    <button class="try-it" onclick="window.open('/api/v1/countries/1', '_blank')">Probar</button>
+                    <button class="try-it" onclick="window.open('api/api/v1/countries/1', '_blank')">Probar</button>
                     <h4>Ejemplo de respuesta:</h4>
                     <pre class="response-example">
 {
@@ -318,7 +318,7 @@
                         </tr>
                     </table>
                     <button class="try-it"
-                        onclick="window.open('/api/v1/countries/21/regions?search=coc&limit=3', '_blank')">Probar</button>
+                        onclick="window.open('api/api/v1/countries/21/regions?search=coc&limit=3', '_blank')">Probar</button>
                     <h4>Ejemplo de respuesta:</h4>
                     <pre class="response-example">
 [
@@ -357,7 +357,7 @@
                         </tr>
                     </table>
                     <button class="try-it"
-                        onclick="window.open('/api/v1/localities/region/2?search=quillac&limit=4', '_blank')">Probar</button>
+                        onclick="window.open('api/api/v1/localities/region/2?search=quillac&limit=4', '_blank')">Probar</button>
                     <h4>Ejemplo de respuesta:</h4>
                     <pre class="response-example">
 [
@@ -395,7 +395,7 @@
                         </tr>
                     </table>
                     <button class="try-it"
-                        onclick="window.open('/api/v1/localities/country/21?search=Vin&limit=10', '_blank')">Probar</button>
+                        onclick="window.open('api/api/v1/localities/country/21?search=Vin&limit=10', '_blank')">Probar</button>
                     <h4>Ejemplo de respuesta:</h4>
                     <pre class="response-example">
 [
@@ -427,7 +427,7 @@
                         </tr>
                     </table>
                     <button class="try-it"
-                        onclick="window.open('/api/v1/administrative-types?search=prov&limit=10', '_blank')">Probar</button>
+                        onclick="window.open('api/api/v1/administrative-types?search=prov&limit=10', '_blank')">Probar</button>
                     <h4>Ejemplo de respuesta:</h4>
                     <pre class="response-example">
 [
